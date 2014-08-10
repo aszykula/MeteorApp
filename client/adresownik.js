@@ -1,3 +1,5 @@
+Adresownik = new Meteor.Collection('adresownik');
+
 var clearValues = function(){
 	$('#imie').val("").focus();
 	 $('#nazwisko').val("");
